@@ -177,15 +177,7 @@ def Bias4Update(lr):
 
 def main(lr):
   for i in range(100):   #n epoch
-    sum_err_train = 0
-    sum_err_val = 0 
-    sum_acc_train = 0
-    sum_acc_val = 0 
-    Sumtotal = 0
-    total = 0
-    total2 = 0
-    tp_tn = 0
-    tp_tn2 = 0    
+    sum_err_train, sum_err_val, sum_acc_train, sum_acc_val, Sumtotal, total, total2, tp_tn, tp_tn2 = 0,0,0,0,0,0,0,0,0
     #   train
     for k in range(120):
       
